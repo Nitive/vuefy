@@ -11,6 +11,7 @@
       "es2015.symbol",
       "es2016.array.include"
     ],
+    "jsx": "react",
     "module": "commonjs",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -26,6 +27,6 @@
     "node_modules/@types/"
   ],
   "filesGlob": [
-    "./src/**/*.ts"
+    "./src/**/*.ts*"
   ]
 }

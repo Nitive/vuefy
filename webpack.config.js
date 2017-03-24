@@ -17,18 +17,18 @@ const postcssPlugins = [
 ]
 
 module.exports = {
-  entry: ['./src/index.ts'],
+  entry: ['./src/index.tsx'],
   output: {
     path: path.join(__dirname, 'assets'),
     publicPath: '/',
     filename: 'assets/[name].[hash].js',
   },
   resolve: {
-    extensions: ['.ts', '.js'],
+    extensions: ['.ts', '.tsx', '.js'],
   },
   module: {
     rules: [{
-      test: /\.ts$/,
+      test: /\.tsx?$/,
       loader: 'ts-loader',
       options: {
         transpileOnly: true,
