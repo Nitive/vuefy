@@ -39,30 +39,30 @@ class App extends VueLikeComponent<void, State> {
   }
 
   private dec = () => {
-    // this will fire rerender automaticly
+    // * this will fire rerender automaticly *
     this.state.count--
 
-    // using setState to fire renderer
+    // * using setState to fire renderer *
     // this.setState(state => ({
     //   count: state.count - 1,
     // }))
   }
 
   private inc = () => {
-    // this will fire rerender automaticly
+    // * this will fire rerender automaticly *
     // this.state.count++
 
-    // using setState to fire renderer
+    // * using setState to fire renderer *
     this.setState(state => ({
       count: state.count + 1,
     }))
   }
 
   private noop = () => {
-    // this will not fire rerender
+    // * this will not fire rerender *
     this.state.count = this.state.count
 
-    // this will fire rerender
+    // * this will fire rerender *
     // this.setState(state => ({
     //   count: state.count,
     // }))
