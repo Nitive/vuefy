@@ -1,0 +1,33 @@
+{
+  "name": "vuefy",
+  "version": "0.1.0",
+  "description": "Turn your React into Vue.js",
+  "main": "assets/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitive/vuefy.git"
+  },
+  "author": "Maxim Samoilov <https://twitter.com/_nitive>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nitive/vuefy/issues"
+  },
+  "homepage": "https://github.com/Nitive/vuefy#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.10",
+    "concurrently": "^3.4.0",
+    "css-loader": "^0.27.3",
+    "html-webpack-plugin": "^2.28.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-loader": "^1.3.3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.16.0",
+    "ts-loader": "^2.0.1",
+    "tslint": "^4.5.1",
+    "tslint-config-standard": "^4.0.0",
+    "typed-css-modules": "^0.2.0",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
